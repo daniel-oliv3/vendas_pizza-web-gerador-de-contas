@@ -74,7 +74,10 @@ function estorno(e){
 }
 
 
-
+//Gerando a planilha Table-To-Excel
+function FinalizarPedido(e){
+    TableToExcel.convert(document.getElementById('table'));
+}
 
 
 

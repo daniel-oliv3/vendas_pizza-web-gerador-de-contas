@@ -21,13 +21,10 @@
 	<section>
 		<h3>Selecione o sabor da sua pizza</h3>
 		<form>
-			<ul>
-				<li><input type="radio" id="mussarela" name="pizzas"></li>
-				<label>Mussarela</label>
-				<li><input type="radio" id="portuguesa" name="pizzas"></li>
-				<label>Portuguesa</label>
-				<li><input type="radio" id="calabresa" name="pizzas"></li>
-				<label>Calabresa</label>
+			<ul>				
+				<li><input type="radio" id="mussarela" name="pizzas"><label>Mussarela</label></li>						
+				<li><input type="radio" id="portuguesa" name="pizzas"><label>Portuguesa</label></li>						
+				<li><input type="radio" id="calabresa" name="pizzas"><label>Calabresa</label></li>				
 			</ul>
 		</form>
 	</section>
@@ -43,17 +40,20 @@
 				<th>Sabores</th><th>Quatidade</th><th>Valor</th>
 			</tr>
 			<tr>
-				<td>Mussarela</td><td></td><td></td>
+				<td>Mussarela</td><td id="resultadoMussarela"></td><td id="vendaMussarela"></td>
 			</tr>
 			<tr>
-				<td>Portuguesa</td><td></td><td></td>
+				<td>Portuguesa</td><td id="resultadoPortuguesa"></td><td id="vendaPortuguesa"></td>
 			</tr>
 			<tr>
-				<td>Calabresa</td><td></td><td></td>
+				<td>Calabresa</td><td id="resultadoCalabresa"></td><td id="vendaCalabresa"></td>
 			</tr>
 		</table>
 	</section>
 
+	<section>
+		<button id="export">Finalizar Pedido</button>
+	</section>
 
 
 
